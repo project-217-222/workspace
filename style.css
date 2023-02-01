@@ -35,9 +35,15 @@
 
 .topright {
   border: 2px solid white;
+  background-position: absolute;
   color: aliceblue;
   width: 200px;
   height: 100px;
+  /*background-image: url(game.jpg);
+
+   /* background-repeat: no-repeat; */
+
+  /* background-position: center; */
   font-size: 2rem;
   text-align: center;
   /* text-shadow: 5px, 5px, 0px black; */
@@ -46,6 +52,8 @@
   right: 0;
   margin-right: 20px;
   margin-top: 20px;
+  background-image: url(game.jpg);
+  background-size: 20px,10px;
 }
 
 .bottomleft {
@@ -76,10 +84,8 @@
 
 div:hover {
   color: aqua;
-  /* -sh
-  
-  
-  
-  
-  adow: 5px, 5px, 0px red; */
+  /* -shadow: 5px, 5px, 0px red; */
 }
+/* .game{
+  background-color:black;
+} */
