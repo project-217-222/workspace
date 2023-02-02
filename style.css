@@ -8,19 +8,22 @@ body{
   /* text-shadow: 5px, 5px, 0px black; */
 }
 .welcome {
+  position: absolute;
   border: 2px solid white;
   color: aliceblue;
   width: 200px;
   height: 100px;
-  margin-top: 25%;
-  margin-left: auto;
-  margin-bottom: 25%;
+  
+  /* margin-top: 25%; */
+  /* margin-left: 600px; */
+  /* margin-bottom: 25%; */
   margin-right: auto;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
 
 .topleft {
+  border-radius: 10px;
   border: 2px solid rgb(255, 255, 255);
   /* background-color: black; */
   background-image: url(/aboutus.jpg);
@@ -39,6 +42,7 @@ body{
 }
 
 .topright {
+  border-radius: 10px;
   border: 2px solid white;
   /* background-position: absolute; */
   color: aliceblue;
@@ -60,12 +64,16 @@ body{
   background-image: url(game.jpg);
   background-size: cover;
 }
+.topright:hover{
+  background-image: url(game1.gif);
+}
 
 .bottomleft {
+  border-radius: 10px;
   background-image: url(feedback.jpg);
   background-size: cover;
-  border: 2px solid white;
-  color: aliceblue;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 250px;
   height: 200px;
   text-align: center;
@@ -74,9 +82,11 @@ body{
   left: 0;
   margin-left: 20px;
   margin-bottom: 20px;
+  
 }
 
 .bottomright {
+  border-radius: 10px;
   background-image: url(projectimg.svg);
   background-color: black;
   background-size: cover;
@@ -96,9 +106,21 @@ div:hover {
   color: aqua;
   /* -shadow: 5px, 5px, 0px red; */
 }
-/* .game{
-  background-color:black;
-} */
-/* #tl{
-  background-color: black;
-} */
+.bottomleft:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.bottomright:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}.topleft:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}.topright:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
