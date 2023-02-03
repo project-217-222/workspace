@@ -1,21 +1,28 @@
 body{
   /* background: linear-gradient(blue,lightgreen); */
-  background: url(bg-image.jpg);
+  background: url(bg-vid.gif);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   /* text-shadow: 5px, 5px, 0px black; */
 }
+video
+{
+  right: 0%;
+  bottom: 0%;
+  min-width: 100%;
+  min-height: 100%;
+}
 .welcome {
   position: absolute;
   border: 2px solid white;
-  color: aliceblue;
+  color: white;
   width: 200px;
   height: 100px;
   
-  /* margin-top: 25%; */
-  /* margin-left: 600px; */
+  margin-top: 25%;
+  margin-left: 600px;
   /* margin-bottom: 25%; */
   margin-right: auto;
   text-align: center;
@@ -24,7 +31,7 @@ body{
 
 .topleft {
   border-radius: 10px;
-  border: 2px solid rgb(255, 255, 255);
+  /* border: 2px solid black; */
   /* background-color: black; */
   background-image: url(/aboutus.jpg);
   background-size: cover;
@@ -65,7 +72,7 @@ body{
   background-size: cover;
 }
 .topright:hover{
-  background-image: url(game1.gif);
+  background: url(game1.gif);
 }
 
 .bottomleft {
@@ -87,7 +94,7 @@ body{
 
 .bottomright {
   border-radius: 10px;
-  background-image: url(projectimg.svg);
+  background-image: url(aboutus.jpg);
   background-color: black;
   background-size: cover;
   border: 2px solid white;
@@ -107,8 +114,8 @@ div:hover {
   /* -shadow: 5px, 5px, 0px red; */
 }
 .bottomleft:hover {
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
   transform: scale(1.1); 
 }
 .bottomright:hover {
