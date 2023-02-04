@@ -67,7 +67,7 @@
   color: aliceblue;
   width: 250px;
   height: 200px;
-  background-image: url(game.jpg);
+  background-image: url(/game2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   font-size: 2rem;
@@ -77,13 +77,12 @@
   right: 0;
   margin-right: 20px;
   margin-top: 20px;
-  background-image: url(game.jpg);
   background-size: cover;
   display: block;
 }
-.topright:hover{
+/* .topright:hover{
   background: url(game1.gif);
-}
+} */
 .bottomleft {
   border-radius: 10px;
   background-image: url(feedback.jpg);
