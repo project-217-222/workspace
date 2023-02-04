@@ -1,52 +1,24 @@
 
 *{
-  /* background: linear-gradient(blue,lightgreen); */
-  /* background: url(/CalculatingSpiffyKudu.mp4); */
-  /* background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover; */
-  /* text-shadow: 5px, 5px, 0px black; */
   margin: 0;
-  /* border: 1px solid black; */
-  /* padding: 0; */
-
-
 }
-/* video
-{
-  right: 0%;
-  bottom: 0%;
-  position: absolute;
-  position: fixed;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-} */
-
 video{
   position: absolute;
-  /* top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0; */
   width: 100%;
-  /* height: 100%; */
   background-attachment: fixed;
   background-position: center;
-  /* background-size: cover; */
-  /* position: static; */
 }
 .welcome {
   position: absolute;
-  border: 2px solid white;
+  /* border: 2px solid violet; */
+  font-size: 20px;
   color: white;
-  width: 200px;
-  height: 100px;
-  
+  font-weight: bold;
+  width: 250px;
+  height: 90px;
   margin-top: 25%;
   margin-left: 600px;
+  padding: 10px;
   /* margin-bottom: 25%; */
   margin-right: auto;
   text-align: center;
@@ -54,10 +26,10 @@ video{
 }
 
 .topleft {
-  border-radius: 10px;
+  /* border-radius: 10px  ; */
   /* border: 2px solid black; */
   /* background-color: black; */
-  background-image: url(/aboutus.jpg);
+  background-image: url(/Amongimg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -74,15 +46,12 @@ video{
 
 .topright {
   border-radius: 10px;
-  border: 2px solid white;
   /* background-position: absolute; */
   color: aliceblue;
   width: 250px;
   height: 200px;
-  background-image: url(game.jpg);
-
-   background-repeat: no-repeat;
-
+  background-image: url(neon-arcade-game-machine-sign_73458-2114.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   font-size: 2rem;
   text-align: center;
@@ -92,11 +61,7 @@ video{
   right: 0;
   margin-right: 20px;
   margin-top: 20px;
-  background-image: url(game.jpg);
   background-size: cover;
-}
-.topright:hover{
-  background: url(game1.gif);
 }
 
 .bottomleft {
@@ -121,7 +86,7 @@ video{
   background-image: url(aboutus.jpg);
   background-color: black;
   background-size: cover;
-  border: 2px solid white;
+  border: 2px solid black;
   color: aliceblue;
   width: 250px;
   height: 200px;
