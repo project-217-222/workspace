@@ -9,9 +9,18 @@
   /* text-shadow: 5px, 5px, 0px black; */
   margin: 0;
   /* border: 1px solid black; */
-  /* padding: 0; */
-
-
+  padding: 0;
+  box-sizing:border-box;
+}
+.bgvideo{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
 }
 /* video
 {
@@ -25,19 +34,19 @@
   height: 100%;
 } */
 
-video{
+ /* video{ 
   position: absolute;
-  /* top: 0;
+  top: 0;
   bottom: 0;
   right: 0;
-  left: 0; */
+  left: 0;
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
-  /* background-size: cover; */
-  /* position: static; */
-}
+  background-size: cover;
+  position: static;
+}  */
 .welcome {
   position: absolute;
   border: 2px solid white;
