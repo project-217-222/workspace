@@ -1,58 +1,34 @@
 
 *{
   margin: 0;
-  /* border: 1px solid black; */
-  /* padding: 0; */
-
-
+  padding: 0;
+  box-sizing:border-box;
 }
-/* video
-{
-  right: 0%;
-  bottom: 0%;
-  position: absolute;
-  position: fixed;
-  background-size: cover;
-  background-position: center;
+.bgvideo{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
-} */
-
-video{
-  position: absolute;
-  /* top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0; */
-  width: 100%;
-  /* height: 100%; */
-  background-attachment: fixed;
-  background-position: center;
-  /* background-size: cover; */
-  /* position: static; */
+  object-fit: cover;
+  pointer-events: none;
 }
 .welcome {
   position: absolute;
-  /* border: 2px solid violet; */
-  font-size: 20px;
+  border: 2px solid white;
   color: white;
-  font-weight: bold;
-  width: 250px;
-  height: 90px;
+  width: 200px;
+  height: 100px;
   margin-top: 25%;
   margin-left: 600px;
-  padding: 10px;
-  /* margin-bottom: 25%; */
   margin-right: auto;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
-
 .topleft {
-  /* border-radius: 10px  ; */
-  /* border: 2px solid black; */
-  /* background-color: black; */
-  background-image: url(/Amongimg.png);
+  border-radius: 10px;
+  background-image: url(/aboutus.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -64,29 +40,29 @@ video{
   left: 0;
   margin-left: 20px;
   margin-top: 20px;
-  /* background-color: black; */
 }
-
 .topright {
   border-radius: 10px;
-  /* background-position: absolute; */
+  border: 2px solid white;
   color: aliceblue;
   width: 250px;
   height: 200px;
-  background-image: url(neon-arcade-game-machine-sign_73458-2114.jpg);
+  background-image: url(game.jpg);
   background-repeat: no-repeat;
   background-position: center;
   font-size: 2rem;
   text-align: center;
-  /* text-shadow: 5px, 5px, 0px black; */
   position: absolute;
   top: 0;
   right: 0;
   margin-right: 20px;
   margin-top: 20px;
+  background-image: url(game.jpg);
   background-size: cover;
 }
-
+.topright:hover{
+  background: url(game1.gif);
+}
 .bottomleft {
   border-radius: 10px;
   background-image: url(feedback.jpg);
@@ -101,15 +77,13 @@ video{
   left: 0;
   margin-left: 20px;
   margin-bottom: 20px;
-  
 }
-
 .bottomright {
   border-radius: 10px;
   background-image: url(aboutus.jpg);
   background-color: black;
   background-size: cover;
-  border: 2px solid black;
+  border: 2px solid white;
   color: aliceblue;
   width: 250px;
   height: 200px;
@@ -120,10 +94,8 @@ video{
   margin-right: 20px;
   margin-bottom: 20px;
 }
-
 div:hover {
   color: aqua;
-  /* -shadow: 5px, 5px, 0px red; */
 }
 .bottomleft:hover {
   -ms-transform: scale(1.1);
