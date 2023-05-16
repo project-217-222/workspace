@@ -18,7 +18,7 @@
 .welcome {
   /* border: 2px solid white; */
   width: 280px;
-  height: 200px; 
+  height: 250px; 
   text-align: center;
   font-size: 25px;
   font-weight: bold;
@@ -27,7 +27,7 @@
   margin: auto;
   margin-top:290px;
   padding-top: 60px;
-  color: aliceblue;
+  color:lightgoldenrodyellow;
 }
 .topleft {
   border-radius: 10px;
@@ -63,26 +63,25 @@
   display:block ;
   border: 2px solid white;
 }
-.topright {
+/* .topright {
   border-radius: 10px;
   border: 2px solid white;
   color: aliceblue;
-  width: 250px;
-  height: 200px;
-  background-image: url(game.jpg);
-  /* background-repeat: no-repeat; */
-  background-position: center;
-  /* font-size: 2rem; */
-  /* text-align: center; */
+  width: 20px;
+  height: 200px; 
+  background-image: url(/game2.jpg);
+   background-repeat: no-repeat; 
+   background-position: center;
+  font-size: 2rem;
+  text-align: center;
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 20px;
+  margin-right: 400px;
   margin-top: 20px;
-  background-image: url(game.jpg);
   background-size: cover;
   display: block;
-}
+}  */
 /* .topright:hover{
   background: url(game1.gif);
 } */
@@ -124,4 +123,19 @@ div:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
+}
+.head{
+  text-align: center;
+}
+.topright{
+   text-align: right;
+   margin-top: -540px;
+   margin-right: 15px;
+   position: fixed;
+   margin-left: 81%;
+   
+}
+img{
+  border: 2px solid white;
+  border-radius: 10px;
 }
